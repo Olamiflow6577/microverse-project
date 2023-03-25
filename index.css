@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+
+  section{
+    position: absolute;
+    width: 1440px;
+    height: 870px;
+    left: 0px;
+    top: 0px;
+    background-color: #1C1A19;
+  }
+  .navbar{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #3E3C3C;
+}
+.logo{
+    width: 84px;
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 108px;
+    height: 40px;
+    left: 142px;
+    top: 16px;
+}
+.media-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    right: 194px;
+    top: calc(50% - 40px/2);
+    color: white;
+}
+header{
+    width: 566px;
+height: 160px;
+
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 82px;
+/* or 113% */
+
+
+color: #F55800;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/* medium */
+
+.icons{
+    position: absolute;
+    width: 20px;
+    height: 98.96px;
+    left: 36px;
+    top: 394px;
+}
+
+.maintitle{
+    /* Headline */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 192px 0px;
+gap: 24px;
+
+position: absolute;
+width: 566px;
+height: 739px;
+left: 143px;
+top: 182px;
+}
+
+.sptext{
+width: 566px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.description{
+width: 566px;
+height: 123px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+/* Neutrals/N20 */
+
+color: #F4F5F7;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.illustration{
+    position: absolute;
+    width: 1003.13px;
+    height: 769.27px;
+    left: 780.68px;
+    top: -5px;
+
+    transform: matrix(-0.96, 0.27, 0.27, 0.96);
+}
